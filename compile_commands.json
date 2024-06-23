@@ -1,0 +1,34 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c99",
+      "-I/usr/include/libdrm",
+      "-I/usr/include/pixman-1",
+      "-I/usr/include/elogind",
+      "-I.",
+      "-DWLR_USE_UNSTABLE",
+      "-D_POSIX_C_SOURCE=200809L",
+      "-DVERSION=\"v0.5-90-g21205f2-dirty\"",
+      "-DXWAYLAND",
+      "-g",
+      "-pedantic",
+      "-Wall",
+      "-Wextra",
+      "-Wdeclaration-after-statement",
+      "-Wno-unused-parameter",
+      "-Wshadow",
+      "-Wunused-macros",
+      "-Werror=strict-prototypes",
+      "-Werror=implicit",
+      "-Werror=return-type",
+      "-Werror=incompatible-pointer-types",
+      "-Wfloat-conversion",
+      "-O1",
+      "-c",
+      "dwl.c"
+    ],
+    "directory": "/home/Churro/dwl",
+    "file": "/home/Churro/dwl/dwl.c"
+  }
+]
